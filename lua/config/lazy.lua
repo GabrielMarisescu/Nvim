@@ -1,6 +1,6 @@
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
-  -- bootstrap lazy.nvim
+  -- bootstrap lazy.nvim    { import = "lazyvim.plugins.extras.lsp.none-ls" },
   -- stylua: ignore
   vim.fn.system({ "git", "clone", "--filter=blob:none", "https://github.com/folke/lazy.nvim.git", "--branch=stable", lazypath })
 end
@@ -17,7 +17,6 @@ require("lazy").setup({
     -- import/override with your plugins
     { import = "lazyvim.plugins.extras.linting.eslint" },
     -- { import = "lazyvim.plugins.extras.formatting.prettier" },
-    { import = "lazyvim.plugins.extras.lsp.none-ls" },
     { import = "lazyvim.plugins.extras.lang.docker" },
     { import = "lazyvim.plugins.extras.dap.core" },
     { import = "plugins" },
