@@ -78,7 +78,7 @@ return {
       insert_mappings = true, -- whether or not the open mapping applies in insert mode
       terminal_mappings = true, -- whether or not the open mapping applies in the opened terminals
       persist_size = true,
-      direction = "horizontal" or "vertical" or "window" or "float",
+      direction = "float",
       -- direction = "vertical",
       close_on_exit = true, -- close the terminal window when the process exits
       -- shell = vim.o.shell, -- change the default shell
@@ -88,7 +88,7 @@ return {
       --   -- see :h nvim_open_win for details on borders however
       --   -- the 'curved' border is a custom border type
       --   -- not natively supported but implemented in this plugin.
-      --   border = 'single' or 'double' or 'shadow' or 'curved',
+      border = "double",
       --   width = <value>,
       --   height = <value>,
       --   winblend = 3,
