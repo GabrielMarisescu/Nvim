@@ -7,8 +7,8 @@ return {
     linters_by_ft = {
       fish = { "fish" },
       dockerfile = { "hadolint" },
-      php = { "phpcs" },
-      blade = { "phpcs" },
+      php = { "phpstan" },
+      blade = { "phpstan" },
       -- python = { "pylint" },
       -- Use the "*" filetype to run linters on all filetypes.
       -- ['*'] = { 'global linter' },
