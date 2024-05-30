@@ -9,6 +9,10 @@ return {
       dockerfile = { "hadolint" },
       php = { "phpstan" },
       blade = { "phpstan" },
+      typescriptreact = { "eslint_d" },
+      javascriptreact = { "eslint_d" },
+      javascript = { "eslint_d" },
+      typescript = { "eslint_d" },
       -- python = { "pylint" },
       -- Use the "*" filetype to run linters on all filetypes.
       -- ['*'] = { 'global linter' },

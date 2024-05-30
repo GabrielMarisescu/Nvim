@@ -12,3 +12,4 @@ vim.api.nvim_set_keymap("n", "<Leader>nf", ":lua require('neogen').generate()<CR
 
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
