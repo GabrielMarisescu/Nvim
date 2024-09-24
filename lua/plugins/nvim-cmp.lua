@@ -1,0 +1,72 @@
+return {
+  -- -- nvim-cmp setup
+  -- "hrsh7th/nvim-cmp",
+  -- dependencies = {
+  --   "hrsh7th/cmp-nvim-lsp",
+  --   "hrsh7th/cmp-buffer",
+  --   "hrsh7th/cmp-path",
+  --   "hrsh7th/cmp-cmdline",
+  --   "hrsh7th/cmp-vsnip", -- if you use vsnip for snippets
+  --   "hrsh7th/vim-vsnip",
+  --   "hrsh7th/cmp-nvim-lua",
+  --   "onsails/lspkind-nvim", -- Optional: for icons
+  -- },
+  -- config = function()
+  --   local cmp = require("cmp")
+  --   local lspkind = require("lspkind")
+  --
+  --   cmp.setup({
+  --     snippet = {
+  --       expand = function(args)
+  --         vim.fn["vsnip#anonymous"](args.body)
+  --       end,
+  --     },
+  --     mapping = {
+  --       ["<C-b>"] = cmp.mapping.scroll_docs(-4),
+  --       ["<C-f>"] = cmp.mapping.scroll_docs(4),
+  --       ["<C-Space>"] = cmp.mapping.complete(),
+  --       ["<C-e>"] = cmp.mapping.abort(),
+  --       ["<CR>"] = cmp.mapping.confirm({ select = true }),
+  --
+  --       -- Arrow key mappings for navigation
+  --       ["<Down>"] = cmp.mapping.select_next_item(),
+  --       ["<Up>"] = cmp.mapping.select_prev_item(),
+  --     },
+  --     sources = cmp.config.sources({
+  --       { name = "nvim_lsp" },
+  --       { name = "vsnip" }, -- if you use vsnip
+  --       { name = "nvim_lua" },
+  --       { name = "path" },
+  --       { name = "buffer", keyword_length = 5 },
+  --     }),
+  --     formatting = {
+  --       format = function(entry, vim_item)
+  --         -- Customize how completion items are formatted
+  --         if vim_item.kind == "Class" then
+  --           vim_item.abbr = vim_item.abbr:gsub("%(", "") -- Remove parentheses for classes
+  --         end
+  --         return lspkind.cmp_format({
+  --           mode = "symbol_text", -- Show symbol and text
+  --           maxwidth = 50, -- Limit width of the popup
+  --           ellipsis_char = "...", -- Truncate long items
+  --         })(entry, vim_item)
+  --       end,
+  --     },
+  --     window = {
+  --       completion = cmp.config.window.bordered({
+  --         border = "rounded", -- Border style: 'rounded', 'single', 'double', 'shadow', 'none'
+  --       }),
+  --       documentation = cmp.config.window.bordered({
+  --         border = "rounded",
+  --       }),
+  --     },
+  --     experimental = {
+  --       ghost_text = true,
+  --     },
+  --     completion = {
+  --       auto_select = true, -- Automatically select the first item
+  --     },
+  --     preselect = cmp.PreselectMode.Item, -- Preselect the first item
+  --   })
+  -- end,
+}

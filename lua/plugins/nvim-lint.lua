@@ -6,14 +6,12 @@ return {
     events = { "BufWritePost", "BufReadPost", "InsertLeave" },
     linters_by_ft = {
       fish = { "fish" },
-      dockerfile = { "hadolint" },
-      php = { "phpstan" },
-      blade = { "phpstan" },
       typescriptreact = { "eslint_d" },
       javascriptreact = { "eslint_d" },
       javascript = { "eslint_d" },
       typescript = { "eslint_d" },
-      -- python = { "pylint" },
+
+      -- python = { "pyright" },
       -- Use the "*" filetype to run linters on all filetypes.
       -- ['*'] = { 'global linter' },
       -- Use the "_" filetype to run linters on filetypes that don't have other linters configured.

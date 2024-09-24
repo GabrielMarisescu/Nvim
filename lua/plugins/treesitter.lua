@@ -19,20 +19,15 @@ return {
   },
   opts = {
     ensure_installed = {
-      "bash",
-      "html",
       "javascript",
       "json",
       "lua",
-      "markdown",
-      "markdown_inline",
-      "php",
       "query",
       "regex",
       "tsx",
       "typescript",
-      "vim",
       "yaml",
+      "go",
     },
     auto_install = true,
     highlight = {

@@ -14,9 +14,7 @@ return {
       formatters_by_ft = {
         lua = { "stylua" },
         fish = { "fish_indent" },
-        sh = { "shfmt" },
-        php = { "pretty-php" },
-        blade = { "blade-formatter", "rustywind" },
+        -- python = { "black" },
         javascript = { "prettier" },
         javascriptreact = { "prettier" },
         typescript = { "prettier" },
