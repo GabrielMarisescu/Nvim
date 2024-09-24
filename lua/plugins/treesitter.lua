@@ -27,7 +27,6 @@ return {
       "tsx",
       "typescript",
       "yaml",
-      "go",
     },
     auto_install = true,
     highlight = {

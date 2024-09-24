@@ -6,4 +6,4 @@
 local opt = vim.opt
 --opt.number = false --line numbers
 --opt.relativenumber = false -- Relative line numbers
-opt.winbar = "%=%m %f"
+opt.winbar = ""

@@ -10,7 +10,6 @@ return {
       "stylua",
       "prettier",
       "tailwindcss-language-server",
-
       -- "ruff",
       -- "debugpy",
       -- "jedi-language-server",
