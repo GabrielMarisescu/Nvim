@@ -30,6 +30,7 @@ return {
         markdown = { "prettier" },
         graphql = { "prettier" },
         handlebars = { "prettier" },
+        go = { "goimports", "gofumpt" },
       },
       -- LazyVim will merge the options you set here with builtin formatters.
       -- You can also define any custom formatters here.
